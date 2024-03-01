@@ -1,0 +1,33 @@
+### Obtiene lista de cafés
+GET {{HOST}}:{{PORT}}/api/v1/coffee
+
+### Crea un café
+POST {{HOST}}:{{PORT}}/api/v1/coffee
+Content-Type: application/json
+
+{
+  "id": "628b5c8f-3cc3-4eef-bf09-b83189ab1b0f",
+  "name": "Latte",
+  "ingredients": [
+    "café molido",
+    "leche caliente",
+    "espuma de leche"
+  ]
+}
+
+### Actualiza un café
+PUT {{HOST}}:{{PORT}}/api/v1/coffee/628b5c8f-3cc3-4eef-bf09-b83189ab1b0f
+Content-Type: application/json
+
+{
+  "id": "628b5c8f-3cc3-4eef-bf09-b83189ab1b0",
+  "name": "Latte",
+  "ingredients": [
+    "café molido",
+    "leche caliente",
+    "espuma de leche"
+  ]
+}
+
+### Borra un café por su ID
+DELETE {{HOST}}:{{PORT}}/api/v1/coffee/628b5c8f-3cc3-4eef-bf09-b83189ab1b0f
