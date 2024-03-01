@@ -1,4 +1,4 @@
-# Prueba con test unitarios
+# Challenge: Tests unitarios
 Este desafío pone a prueba conocimientos en la creación de test unitarios simples
 de una aplicación de Node con Express usando Jest y supertest.
 

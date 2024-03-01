@@ -69,7 +69,7 @@ describe('Teste in /api/v1/coffe', () => {
         ...coffee1,
         name: 'New name'
       })
-    
+
     expect(body.error).toEqual('El id de la url no coincide con la del payload');
   })
 
